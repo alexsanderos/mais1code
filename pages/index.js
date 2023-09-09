@@ -1,5 +1,5 @@
-function Home() { 
-    return <header>Bem vindos!<div>Esta é a nossa home</div></header> 
-}
+import styles from './index.module.scss';
 
-export default Home;
+export default function Home() {
+    return <h1 className={styles.titulo}>Home</h1>
+}
