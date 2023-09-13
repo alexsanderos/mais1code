@@ -1,24 +1,30 @@
-/* CSS do componente index Home */
-
 body {
     margin: 0;
-    height: 100vh;
-    width: 100vh;
+    height: 100%;
+    width: 100%;
+}
+
+header {
+    width: 100%;
 }
 
 nav {
     background: #1B7E6C;
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.logo {}
+.logo {
+    padding-left: 20px;
+}
 
 .barra-pesquisa {
     background-color: #EAFDF7;
     border-radius: 20px;
     height: 30px;
-    width: 250px;
+    width: 300px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -40,9 +46,21 @@ nav {
     padding-right: 9px;
 }
 
+.botão-pesquisa:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
 ul {
     display: flex;
     flex-direction: row;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    padding: 0 7px;
 }
 
 .home {
@@ -58,4 +76,15 @@ ul {
     font-family: Encode Sans;
     font-size: medium;
     font-weight: bolder;
+}
+
+li:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+@media (max-width: 700px) {
+    header {
+        width: 50%;
+    }
 }
