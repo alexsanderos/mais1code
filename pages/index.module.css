@@ -1,0 +1,61 @@
+/* CSS do componente index Home */
+
+body {
+    margin: 0;
+    height: 100vh;
+    width: 100vh;
+}
+
+nav {
+    background: #1B7E6C;
+    display: flex;
+    flex-direction: row;
+}
+
+.logo {}
+
+.barra-pesquisa {
+    background-color: #EAFDF7;
+    border-radius: 20px;
+    height: 30px;
+    width: 250px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10px;
+}
+
+.barra-texto {
+    background: none;
+    border: none;
+    outline: none;
+    height: 30px;
+    width: 250px;
+    padding: 0;
+    line-height: 30px;
+}
+
+.botão-pesquisa {
+    display: flex;
+    padding-right: 9px;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+}
+
+.home {
+    background: none;
+    border: none;
+    color: #fff;
+}
+
+.menu {
+    background: none;
+    border: none;
+    color: #fff;
+    font-family: Encode Sans;
+    font-size: medium;
+    font-weight: bolder;
+}

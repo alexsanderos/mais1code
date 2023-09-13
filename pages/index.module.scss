@@ -1,5 +1,26 @@
 /* CSS do componente index Home */
 
-.titulo {
-    font-size: 2rem;
+.header {
+    margin: 0;
+    color: #1B7E6C;
+}
+
+.barra-pesquisa {
+    width: 200px;
+    height: 40px;
+    background-color: #ccc;
+    border: 1px solid #000;
+}
+
+input {
+    width: 100%;
+    height: 100%;
+    font-size: 16px;
+    color: #000;
+}
+
+img {
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
 }
