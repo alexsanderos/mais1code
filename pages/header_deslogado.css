@@ -16,11 +16,12 @@ nav {
     align-items: center;
 }
 
-.logo {
-    padding-left: 20px;
+.pesquisa {
+    position: absolute;
+    left: 8%;
 }
 
-.pesquisa {
+.logo {
     padding-left: 20px;
 }
 
@@ -28,11 +29,10 @@ nav {
     background-color: #EAFDF7;
     border-radius: 20px;
     height: 30px;
-    width: 300px;
+    width: 400px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-left: 10px;
 }
 
 .barra-texto {
