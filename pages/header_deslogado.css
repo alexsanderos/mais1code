@@ -8,8 +8,13 @@ header {
     width: 100%;
 }
 
-.logo {
-    padding-left: 20px;
+.home {
+    width: 10;
+    height: 10;
+    margin: 2px 10px;
+    background: none;
+    border: none;
+    color: #fff;
 }
 
 nav {
@@ -40,7 +45,7 @@ nav {
     border: none;
     outline: none;
     height: 30px;
-    width: 250px;
+    width: 400px;
     padding: 0;
     line-height: 30px;
 }
@@ -67,13 +72,8 @@ li {
     padding: 0 7px;
 }
 
-.home {
-    background: none;
-    border: none;
-    color: #fff;
-}
-
 .menu {
+    text-decoration: none;
     background: none;
     border: none;
     color: #fff;
@@ -87,8 +87,73 @@ li:hover {
     opacity: 0.8;
 }
 
-@media (max-width: 700px) {
+@media screen and (max-width: 992px) {
     header {
-        width: 50%;
+        position: relative;
+        width: 100%;
+    }
+    .home {
+        width: 10;
+        height: 10;
+        margin: 2px 10px;
+        background: none;
+        border: none;
+        color: #fff;
+    }
+    nav {
+        background: #1B7E6C;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .pesquisa {
+        position: absolute;
+        left: 20%;
+    }
+    .barra-pesquisa {
+        background-color: #EAFDF7;
+        border-radius: 20px;
+        height: 35px;
+        width: 100px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .barra-texto {
+        background: none;
+        border: none;
+        outline: none;
+        height: 30px;
+        width: 50px;
+        padding: 0;
+        line-height: 30px;
+    }
+    .botão-pesquisa {
+        display: flex;
+        padding-right: 9px;
+    }
+    .botão-pesquisa:hover {
+        cursor: pointer;
+        opacity: 0.8;
+    }
+    ul {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        list-style: none;
+        padding: 0;
+    }
+    li {
+        padding: 0 7px;
+    }
+    .menu {
+        text-decoration: none;
+        background: none;
+        border: none;
+        color: #fff;
+        font-family: 'Encode Sans';
+        font-size: large;
+        font-weight: 900;
     }
 }
