@@ -8,6 +8,10 @@ header {
     width: 100%;
 }
 
+.logo {
+    padding-left: 20px;
+}
+
 nav {
     background: #1B7E6C;
     display: flex;
@@ -19,10 +23,6 @@ nav {
 .pesquisa {
     position: absolute;
     left: 8%;
-}
-
-.logo {
-    padding-left: 20px;
 }
 
 .barra-pesquisa {
@@ -77,9 +77,9 @@ li {
     background: none;
     border: none;
     color: #fff;
-    font-family: Encode Sans;
-    font-size: medium;
-    font-weight: bolder;
+    font-family: 'Encode Sans';
+    font-size: large;
+    font-weight: 900;
 }
 
 li:hover {
