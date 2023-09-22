@@ -7,16 +7,16 @@ export default function Navbar() {
   
           
   
-            <a href="header_deslogado.html" className="home">
-              <img src="Icones/AlgarIcon.png" alt="Home" />
+            <a href="header_deslogado.html" className={styles['home']}>
+              <img src="./imgs/Icones/AlgarIcon.png" alt="Home" />
             </a>
   
   
             <section className="pesquisa">
               <form className="barra-pesquisa">
                 <input type="text" className="barra-texto" placeholder="" />
-                <a href="#" className="botão-pesquisa">
-                  <img src="Icones/lupa.png" ealt="Pesquisar" />
+                <a href="#" className="botao-pesquisa">
+                  <img src="./imgs/Icones/lupa.png" ealt="Pesquisar" />
                 </a>
               </form>
             </section>
@@ -24,7 +24,7 @@ export default function Navbar() {
             
   
             <ul className="menu">
-              <li><a href="header_deslogado.html">Cadastrar</a></li>
+              <li><a href="/contato">Cadastrar</a></li>
               <li><a href="header_deslogado.html">Entrar</a></li>
             </ul>
   
