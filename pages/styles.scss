@@ -1,8 +1,16 @@
 /* CSS padrão para todo site */
-@import url('https://fonts.googleapis.com/css2?family=Encode+Sans:wght@400;700&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans:wght@400;700&display=swap');
 body {
     margin: 0;
+}
+
+.home img {
+    height: 50px;
+    margin: 2px 20px;
+    background: none;
+    border: none;
+    color: #fff;
 }
 
 nav {
@@ -39,13 +47,13 @@ nav {
     margin-left: 10px;
 }
 
-.botao-pesquisa img {
+.botão-pesquisa img {
     display: flex;
     padding-right: 10px;
     width: 30px
 }
 
-.botao-pesquisa:hover {
+.botão-pesquisa:hover {
     cursor: pointer;
     opacity: 0.8;
 }
