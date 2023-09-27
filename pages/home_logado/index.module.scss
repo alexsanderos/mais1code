@@ -1,0 +1,95 @@
+/* CSS do componente da página Contato */
+
+.criar-publicacao {
+    padding: 10px 0 10px 0;
+    margin: 0 auto;
+    width: 734px;
+    height: 50px;
+    background-color: #fff;
+    border-radius: 20px;
+    align-items: center;
+    box-shadow: 5px 5px 5px #868686;
+}
+
+.foto-perfil {
+    width: 44px;
+    float: left;
+    margin-left: 10px;
+}
+
+.publicacao {
+    padding: 15px 170px;
+    text-align: left;
+    float: left;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+
+.midia {
+    width: 44px;
+    margin-left: 10px;
+}
+
+.vagas {
+    width: 44px;
+    margin-left: 10px;
+}
+
+
+/* FIM CRIAÇÃO DE PUBLICAÇÃO*/
+
+
+/* CRIAÇÃO POST */
+
+.post {
+    width: 734px;
+    margin: 0 auto;
+    background-color: #fff;
+    margin-top: 80px;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px #868686;
+    height: 450px;
+    font-family: 'Encode Sans', sans-serif;
+}
+
+.foto-post {
+    position: relative;
+    left: 135px;
+}
+
+.foto-post2 {
+    position: relative;
+    left: 120px;
+    width: 500px;
+}
+
+.texto-post {
+    padding: 0 20px 0;
+}
+
+.hora-post {
+    margin-top: 0;
+}
+
+.compartilhar,
+.curtida {
+    width: 34px;
+    float: left;
+    margin-left: 10px;
+}
+
+.comentario {
+    float: left;
+    margin-left: 10px;
+    width: 580px;
+    height: 30px;
+    border-radius: 15px;
+}
+
+.comentar {
+    width: 31px;
+    float: left;
+    position: relative;
+    left: 50px;
+}
