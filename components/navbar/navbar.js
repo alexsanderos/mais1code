@@ -4,14 +4,11 @@ export default function Navbar() {
     return (
         <header className="header">
           <nav className="nav">
-  
-          
-  
+    
             <a href="/home_logado" className="home">
               <img src="./imgs/Icones/AlgarIcon.png" alt="Home" />
             </a>
-  
-  
+   
             <section className="pesquisa">
               <form className="barra-pesquisa">
                 <input type="text" className="barra-texto" placeholder="" />
@@ -19,9 +16,7 @@ export default function Navbar() {
                   <img src="./imgs/Icones/lupa.png" ealt="Pesquisar" />
                 </a>
               </form>
-            </section>
-  
-            
+            </section>        
   
             <ul className="menu">
               <li><a href="/contato">Cadastrar</a></li>
