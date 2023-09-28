@@ -19,8 +19,8 @@ export default function Navbar() {
             </section>        
   
             <ul className="menu">
-              <li><a href="/contato">Cadastrar</a></li>
-              <li><a href="header_deslogado.html">Entrar</a></li>
+              <li><a href="/contato">Contatos</a></li>
+              <li><a href="header_deslogado.html">Vagas</a></li>
             </ul>
   
           </nav>
