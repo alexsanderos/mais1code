@@ -2,18 +2,20 @@ import styles from './footer.module.scss';
 
 export default function Navbar() {
     return <> 
-        <div>
+        <div className={styles['principal']}>
           <section className={styles['sobre-nos']}>
             <h4>Sobre nós</h4>
             <a href='#' >Nossa História</a>
           </section>
           <section className={styles['redes-sociais']}>
             <h4>Nossa Redes</h4>
-            <a href='#' ><img src='./imgs/Icones/facebook.png' /></a>
-            <a href='#' ><img src='./imgs/Icones/instagram.png' /></a>
-            <a href='#' ><img src='./imgs/Icones/youtube.png' /></a>
-            <a href='#' ><img src='./imgs/Icones/twitter.png' /></a>
-            <a href='#' ><img src='./imgs/Icones/linkedin.png' /></a>
+            <div className={styles['links']}>
+              <a href='#' ><img src='./imgs/Icones/facebook.png' /></a>
+              <a href='#' ><img src='./imgs/Icones/instagram.png' /></a>
+              <a href='#' ><img src='./imgs/Icones/youtube.png' /></a>
+              <a href='#' ><img src='./imgs/Icones/twitter.png' /></a>
+              <a href='#' ><img src='./imgs/Icones/linkedin.png' /></a>
+            </div>
           </section>
           <section className={styles['programas']}>
             <h4>Programas</h4>

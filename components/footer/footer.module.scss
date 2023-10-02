@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans:wght@400;700&display=swap');
+
+.principal {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    font-family: 'Encode Sans', sans-serif;
+    color: #2FC8AC;
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 20px;
+    background-color: #1B7E6C;
+}
+
+.sobre-nos {
+    border: 1px solid #000;
+
+    h4 {
+        text-align: center;
+    }
+}
+
+.redes-sociais {
+    border: 1px solid #000;
+
+    h4 {
+        text-align: center;
+    }
+
+    img {
+        width: 30px;
+        padding-right: 7px;
+        display: inline-block;
+        margin: 0 auto;
+        border: 1px solid #000;
+    }
+
+    /*.links {
+        display: inline;
+        margin: 0 auto;
+        border: 1px solid #000;
+    }*/
+}
+
+.programas {
+    border: 1px solid #000;
+
+    h4 {
+        text-align: center;
+    }
+}
+
+.ultima {
+    border: 1px solid #000;
+    width: 300%;
+    display: block;
+    margin: 0 auto;
+
+    img {
+        float: left;
+        display: inline-block;
+        margin: 0 auto;
+    }
+    
+    h5 {
+        text-align: center;
+        float: right;
+    }
+}
