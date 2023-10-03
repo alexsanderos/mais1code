@@ -19,10 +19,10 @@ export default function Navbar() {
           </section>
           <section className={styles['programas']}>
             <h4>Programas</h4>
-            <a href='#' >Transforma</a>
-            <a href='#' >Voluntários</a>
-            <a href='#' >Talentos do Futuro</a>
-            <a href='#' >Educador do amanhã</a>
+            <a href='#' >Transforma</a><br/>
+            <a href='#' >Voluntários</a><br/>
+            <a href='#' >Talentos do Futuro</a><br/>
+            <a href='#' >Educador do amanhã</a><br/>
           </section>
           <section className={styles['ultima']}>
             <img src='#'alt='logo algar'/>
