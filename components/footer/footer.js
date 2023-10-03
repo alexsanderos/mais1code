@@ -1,7 +1,8 @@
 import styles from './footer.module.scss';
 
 export default function Footer() {
-    return (  <div className={styles['principal']}>
+    return (  
+    <div className={styles['principal']}>
     <section className={styles['sobre-nos']}>
       <h4>Sobre nós</h4>
       <a href='#' >Nossa História</a>
