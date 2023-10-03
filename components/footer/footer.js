@@ -25,7 +25,7 @@ export default function Navbar() {
             <a href='#' >Educador do amanhã</a><br/>
           </section>
           <section className={styles['ultima']}>
-            <img src='#'alt='logo algar'/>
+            <img src='./imgs/Icones/Instituto-Algar-1-removebg-preview.png'alt='logo algar'/>
             <h5>Copyright © 2023 | Instituto Algar - Todos os direitos reservados.</h5>
           </section>
         </div>
