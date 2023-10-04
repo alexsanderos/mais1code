@@ -5,7 +5,7 @@ export default function Navbar() {
         <header className="header">
           <nav className="nav">
     
-            <a href="/home_logado" className="home">
+            <a href="/home_principal" className="home">
               <img src="./imgs/Icones/AlgarIcon.png" alt="Home" />
             </a>
    

@@ -1,15 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Encode+Sans:wght@400;700&display=swap');
-
 .principal {
     font-family: 'Encode Sans', sans-serif;
     color: #2FC8AC;
-    width: 80%;
+    width: 100%;
     margin: 0 auto;
-    border-radius: 20px;
     background-color: #1B7E6C;
-
     a {
-        color:#fff;
+        color: #fff;
         text-decoration: none;
         font-weight: bold;
     }
@@ -20,11 +17,9 @@
     float: left;
     width: 32%;
     border-right: 1px solid #000;
-
     h4 {
         text-align: center;
     }
-
     a {
         position: relative;
         left: 35%;
@@ -36,11 +31,9 @@
     float: left;
     width: 32%;
     border-right: 1px solid #000;
-
     h4 {
         text-align: center;
     }
-
     img {
         width: 30px;
         padding-right: 7px;
@@ -48,7 +41,6 @@
         margin: 0 auto;
         /*border: 1px solid #000;*/
     }
-
     .links {
         position: relative;
         left: 30%;
@@ -59,11 +51,9 @@
     display: block;
     float: left;
     width: 32%;
-
     h4 {
         text-align: center;
     }
-
     a {
         position: relative;
         left: 32%;
@@ -73,8 +63,8 @@
 .ultima {
     display: block;
     clear: both;
-
-    h5, a {
+    h5,
+    a {
         display: flex;
         justify-content: center;
         align-items: center;
