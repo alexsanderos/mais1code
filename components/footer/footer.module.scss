@@ -1,0 +1,42 @@
+/* footer.module.scss */
+
+.footer {
+    background-color: #fff;
+    color: #0068A0;
+    padding: 20px 0;
+  }
+  
+  .footerContent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .footerLogo img {
+    width: 100px; /* Tamanho do logo */
+  }
+  
+  .footerInfo p {
+    margin: 0;
+    padding: 5px;
+    font-size: 14px;
+    font-bold: true;
+  }
+  
+  .footerSocial a {
+    margin-right: 10px;
+    text-decoration: none;
+  }
+  
+  .footerSocial img {
+    width: 30px; /* Tamanho dos ícones de redes sociais */
+    height: 30px;
+  }
+  
+  .footerRights {
+    text-align: center;
+    padding-top: 10px;
+  }
+  

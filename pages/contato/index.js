@@ -75,14 +75,7 @@ export default function Contato() {
 
             <button className='enviar' type="submit">Enviar</button>
         
-                <p className='p-rodape' >
-                    Tel 1: (34) 99670-5729 <br></br>
-                    Tel 2: (34) 3218-3061 <br></br>
-                    Email: contato@institutoalgar.org.br <br></br>
-                    End: Rua Lapa do Lobo, 800 <br></br>
-                    Bairro Granja Marileusa <br></br>
-                    Cep: 38406-644Uberlândia-MG
-                </p>
+                
         </div>
 </form>
 </div>

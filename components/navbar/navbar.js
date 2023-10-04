@@ -1,12 +1,15 @@
-import styles from './navbar.module.scss';
+
+/*comentario */
+import React from "react";
+import styles from "./navbar.module.scss"; // Corrija a importação
 
 export default function Navbar() {
-    return (
-      <nav>
-        <ul>
-          <li><a href="/">Home</a></li>
-          <li><a href="/contato">Contato</a></li>
-        </ul>
-      </nav>
-    )
-  }
+  return (
+    <nav className={styles.navbar}> {/* Aplicando a classe .navbar */}
+      <ul>
+        <li><a href="/" className={styles.navLink}>Home</a></li> {/* Aplicando a classe .navLink */}
+        <li><a href="/contato" className={styles.navLink}>Contato</a></li> {/* Aplicando a classe .navLink */}
+      </ul>
+    </nav>
+  );
+}
