@@ -12,8 +12,8 @@ export default function Footer() {
         <div className={styles.footerInfo}>
           <p>Instituto Algar</p>
           <p>Programas</p>
-          <div class="contact flex flex-col">
-        <p class={text-p3 font-bold uppercase text-blue mb-16 tracking-[0.12em]}>
+          <div className="contact flex flex-col">
+        <p class={styles.footerInfo}>
           Fale conosco        </p>
           <p className={styles.footerInfo} >
                     Tel 1: (34) 99670-5729 <br></br>
@@ -42,6 +42,7 @@ export default function Footer() {
       <div className={styles.footerRights}>
         <p>&copy; {new Date().getFullYear()} Todos os direitos reservados.</p>
       </div>
+      </div>
     </footer>
   );
-}
+}   
