@@ -3,7 +3,8 @@
     font-family: 'Encode Sans', sans-serif;
     color: #2FC8AC;
     width: 100%;
-    margin: 0 auto;
+    margin: 0;
+    padding: 0;
     background-color: #1B7E6C;
     a {
         color: #fff;
@@ -15,62 +16,54 @@
 .sobre-nos {
     display: block;
     float: left;
-    width: 32%;
-    border-right: 1px solid #000;
+    width: 30%;
+    margin: 4% 1% 0% 2%;
     h4 {
-        text-align: center;
+        padding-left: 20%;
+        margin: 1% 0% 1% 0%;
     }
     a {
-        position: relative;
-        left: 35%;
+        padding-left: 20%;
     }
 }
 
 .redes-sociais {
     display: block;
     float: left;
-    width: 32%;
-    border-right: 1px solid #000;
+    width: 30%;
+    margin: 4% 1% 0% 2%;
     h4 {
-        text-align: center;
+        padding-left: 3%;
+        margin: 1%;
     }
     img {
         width: 30px;
-        padding-right: 7px;
         display: inline-block;
-        margin: 0 auto;
-        /*border: 1px solid #000;*/
-    }
-    .links {
-        position: relative;
-        left: 30%;
+        margin: 3% 3%;
     }
 }
 
 .programas {
     display: block;
     float: left;
-    width: 32%;
+    width: 30%;
+    margin: 4% 1% 0% 2%;
     h4 {
-        text-align: center;
+        margin: 1%;
     }
     a {
         position: relative;
-        left: 32%;
+        padding-left: 1%;
     }
 }
 
 .ultima {
-    display: block;
-    clear: both;
-    h5,
-    a {
-        display: flex;
-        justify-content: center;
-        align-items: center;
+    h5 {
+        float: right;
+        margin: 6% 34% 0% 2%;
     }
-
     img {
-        width: 15%;
+        width: 10%;
+        margin: 4% 1% 0% 20%;
     }
 }
