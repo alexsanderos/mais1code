@@ -2,13 +2,13 @@ import styles from './index.module.scss';
 
 export default function HomeLogado() {
   return (
-    <main className={styles.corpo}>
-      <section className={styles.criarPublicacao}>
+    <main className={styles['corpo']}>
+      <section className={styles['criarPublicacao']}>
 
         <img src="Icones/usuario-de-perfil.png" alt="#" className={styles.fotoPerfil}/>
 
         <form action="#" method="get">
-          <input type="text"className={styles.publicacao} placeholder="Como você deseja se inspirar hoje?" />
+          <input type="text"className={styles['publicacao']} placeholder="Como você deseja se inspirar hoje?" />
         </form>
 
         <img src="Icones/carregar.png" alt="#" className={styles.midia} />
@@ -16,8 +16,8 @@ export default function HomeLogado() {
 
       </section>
 
-      <section className={styles.post}>
-        <div className={styles.usuarioPost}>
+      <section className={styles['post']}>
+        <div className={styles['usuarioPost']}>
           <img src="Icones/usuario-de-perfil.png" alt="#" className={styles.fotoPerfil}/>
           <span className={styles.nomeUsuario}>Amanda Nunes</span>
           <p className={styles.horaPost}>15h</p>
