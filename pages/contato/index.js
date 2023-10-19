@@ -1,6 +1,9 @@
-import './index.module.scss'
-
+import styles from './index.module.scss';
+import { useForm } from "react-hook-form";
 export default function Contato() {
+    const { register, handleSubmit, formState: { errors } } = useForm();
+    const onSubmit = (data) =>  { console.log(data) };
+
     return <>
 
     
@@ -19,59 +22,62 @@ export default function Contato() {
 
 <h2>Fale conosco.</h2>
 
-<form >
+<form onSubmit ={ handleSubmit(onSubmit) } >
 
         <div  > 
-            <input className='nome' type="text" name="nome" placeholder="Nome" required minlength="3">
-            </input>
+            <input className='nome' type="text" name="nome" placeholder="Nome" 
+                { ... register("nome", { required: true })} />
+                { errors.nome && <div className={styles.erro}> O nome é obrigatório!</div>}
         </div>  
     
 
 
         <div>
-            <input  className='email' type="email" name="email" placeholder="E-mail" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
-            </input>
+            <input  className='email' type="email" name="email" placeholder="E-mail"
+            { ... register("email", { required: true })} />
+                { errors.email && <div  className={styles.erro} > O E-mail é obrigatório!</div>}
+            
         </div>
-
-
 
         
                 <div >
-                    <input className='estado' type="text" name="estado" placeholder="Estado">
-                    </input>
+                    <input className='estado' type="text" name="estado" placeholder="Estado"
+                    { ... register("estado", { required: true })} />
+                { errors.estado && <div  className={styles.erro}> O estado é obrigatório!</div>}
                 </div>
 
 
 
 
                 <div >
-                    <input className=' cidade' type="text" name="cidade" placeholder="Cidade">
-                    </input>
+                    <input className=' cidade' type="text" name="cidade" placeholder="Cidade"
+                     { ... register("cidade", { required: true })} />
+                     { errors.cidade && <div  className={styles.erro}> A cidade é obrigatório!</div>}
                 </div>
 
 
 
                 <div className='telas' >
                 <div>
-                <input className='telefone' type="tel" name="telefone" placeholder="Telefone" required pattern="\d{11}"></input>
+                <input className='telefone' type="tel" name="telefone" placeholder="Telefone" 
+                 { ... register("telefone", { required: true })} />
+                 { errors.telefone && <div  className={styles.erro}> O telefone é obrigatório!</div>}
                 </div>
 
 
                 <div>
-                <textarea className='assunto' name="assunto" placeholder="Assunto" required maxlength="150">
-                </textarea>
+                <textarea className='assunto' name="assunto" placeholder="Assunto" 
+                 { ... register("assunto", { required: true })} />
+                 { errors.assunto && <div  className={styles.erro}> O assunto é obrigatório!</div>}
                 </div>
 
                 </div>
 
-
-                    <textarea className='mensagem' name="mensagem" placeholder="Mensagem" required maxlength="255">        
-                  </textarea> 
+                    <textarea className='mensagem' name="mensagem" placeholder="Mensagem"
+                     { ... register("mensagem", { required: true })} />
+                     { errors.mensagem && <div  className={styles.erro}> A mensagem é obrigatória!</div>} 
                
-        
-
-
-        <div>
+                 <div>
 
             <button className='enviar' type="submit">Enviar</button>
         
