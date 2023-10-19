@@ -13,7 +13,6 @@ export default function Navbar() {
               <a href='#' ><img src='./imgs/Icones/facebook.png' /></a>
               <a href='#' ><img src='./imgs/Icones/instagram.png' /></a>
               <a href='#' ><img src='./imgs/Icones/youtube.png' /></a>
-              <a href='#' ><img src='./imgs/Icones/twitter.png' /></a>
               <a href='#' ><img src='./imgs/Icones/linkedin.png' /></a>
             </div>
           </section>

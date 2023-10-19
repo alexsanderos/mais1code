@@ -12,13 +12,13 @@ export default function HomeLogado() {
         </form>
 
         <img src="./imgs/Icones/carregar.png" alt="#" className={styles['midia']} />
-        <img src="./imgs/Icones/pasta.png" alt="#" className={styles['vagas']} />
+        <img src="./imgs/Icones/pasta(Verde).png" alt="#" className={styles['vagas']} />
 
       </section>
 
       <section className={styles['post']}>
         <div className={styles['usuarioPost']}>
-          <img src="./imgs/Icones/usuario-de-perfil.png" alt="#" className={styles.fotoPerfil}/>
+          <img src="./imgs/Icones/usuario-de-perfil.png" alt="#" className={styles['fotoPerfil']}/>
           <span className={styles['nomeUsuario']}>Amanda Nunes</span>
           <p className={styles['horaPost']}>15h</p>
         </div>
