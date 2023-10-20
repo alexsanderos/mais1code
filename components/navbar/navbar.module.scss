@@ -1,9 +1,45 @@
-.home {
-    img {
-        height: 50px;
-        margin: 2px 20px;
-        background: none;
-        border: none;
-        color: #fff;
-    }
-}
+/* navbar.module.scss */
+
+/* Estilo básico para a barra de navegação */
+.navbar {
+    background-color: #fff; /* Cor de fundo */
+    color: #fff; /* Cor do texto */
+    padding: 10px; /* Espaçamento interno */
+  }
+  
+  /* Estilo para links de navegação */
+  .navbar a {
+    text-decoration: none; /* Remova a sublinhado padrão dos links */
+    color: #4ee24e; /* Cor do texto dos links */
+    margin-right: 20px; /* Espaçamento entre os links */
+    font-weight: bold; /* Estilo de fonte para os links */
+  }
+  
+  /* Estilo para os links quando hover */
+  .navbar a:hover {
+    color: #ff5722; /* Cor quando o mouse passa sobre o link */
+  }
+  
+  /* Estilo para o logotipo da navbar */
+  .navbar-logo {
+    font-size: 24px; /* Tamanho da fonte do logotipo */
+    font-weight: bold; /* Estilo de fonte do logotipo */
+  }
+  
+  /* Estilo para o botão de ação (se houver) */
+  .navbar-button {
+    background-color: #ff5722; /* Cor de fundo do botão */
+    color: #fff; /* Cor do texto do botão */
+    padding: 10px 20px; /* Espaçamento interno do botão */
+    border: none; /* Remova a borda do botão */
+    cursor: pointer; /* Cursor ao passar o mouse */
+    border-radius: 5px; /* Borda arredondada do botão */
+  }
+  
+  /* Estilo para o botão de ação quando hover */
+  .navbar-button:hover {
+    background-color: #ff7f4d; /* Cor de fundo ao passar o mouse */
+  }
+  
+  /* Outros estilos específicos conforme necessário */
+  
