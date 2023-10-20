@@ -20,7 +20,7 @@ export default function Navbar() {
   
             <ul className={styles.menu}>
               <li className={styles.li}><a href="/contato" className={styles.botao_nav} >Contatos</a></li>
-              <li className={styles.li}><a href="header_deslogado.html" className={styles.botao_nav}>Vagas</a></li>
+              <li className={styles.li}><a href="/home_logado" className={styles.botao_nav}>Vagas</a></li>
             </ul>
   
           </nav>
