@@ -8,11 +8,13 @@ export default function HomeLogado() {
         <img src="./imgs/Icones/usuario-de-perfil.png" alt="#" className={styles['fotoPerfil']}/>
 
         <form action="#" method="get">
-          <input type="text"className={styles['publicacao']} placeholder="Como você deseja se inspirar hoje?" />
+          <input type="text" className={styles['publicacao']} size="70" placeholder="Como você deseja se inspirar hoje?" />
         </form>
 
         <img src="./imgs/Icones/carregar.png" alt="#" className={styles['midia']} />
         <img src="./imgs/Icones/pasta(Verde).png" alt="#" className={styles['vagas']} />
+
+        <input type='submit' value="Postar" className={styles['botaoPostar']}/>
 
       </section>
 
