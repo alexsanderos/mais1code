@@ -2,5 +2,462 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Encode+Sans:wght@400;700&display=swap');
 body {
-    margin: 0;
+  font-family: sans-serif;
+  font-size: 16px;
+  margin: 0;
+  margin-top: auto;
+  padding: 0;
+  background-color: #ccc;
+  width: 100vw;
+  height: 100vh;
 }
+
+
+h2{
+  margin-top: 30px;
+  padding: 20px;
+  margin: 15px;
+}
+
+/* E aquie que fica o primeiro quadrado com a frase.aqui da para alterar as margens do primeiro quadrado*/
+#container1 {
+  width: 800px;
+  margin: 0 auto;
+  border-radius: 25px;
+  background-color: #ffffff;
+  color: #1b7e6c;
+  font-size: 20px;
+  margin-top: 30px;
+  font-family: 'Encode Sans', sans-serif;
+  font-weight: bold;
+  margin-bottom: 25px;
+  padding: 25px;
+}
+
+/*Aqui esta o texto (Você pode tirar suas duvidas)*/
+.paragrafo {  
+  margin-top: 30px;
+  font-size: 20px;
+  font-family: 'Encode Sans', sans-serif;
+  font-weight: bold ;
+  margin-left: 17px;
+}
+
+h1{
+  margin-left: 17px;
+  margin-top: 15;
+}
+
+h2{
+  margin-left: 5px ;
+}
+
+/*Aqui esta o quadrado principal, com o formulario*/
+#principal {
+  width: 800px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  color: #1b7e6c;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: 'enconde Sans', sans-serif;
+  padding: 25px;
+  border-radius: 25px;
+  margin-bottom: 25px;
+}
+
+/*campos de email e nome*/
+.nome,
+.email
+ {
+  width: 98%;
+  height: 40px;
+  background-color: #ccc;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: 'enconde Sans', sans-serif;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 5px;
+  border: 1px solid #ccc;
+  display: block;
+}
+.mensagem{
+  font-size: 15px;
+  font-weight: bold;
+  font-family: 'enconde Sans', sans-serif;
+  background-color: #ccc;
+  width: 100%;
+  height: 300px;
+  border-radius: 10px;
+  margin-top: -18%;
+}
+
+.estado,
+.cidade,
+.telefone,
+.assunto {
+  width: 45%;
+  height: 30px;
+  background-color: #ccc;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: 'enconde Sans', sans-serif;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  display: block;
+  
+  
+}
+
+
+.telefone{
+  width: 96%;
+  height: 30px;
+}
+
+.assunto{
+  width: 96%;
+  height: 30px;
+}
+.enviar {
+  width: 20%;
+  height: 40px;
+  background-color: #1b7e6c;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: bold;
+  font-family: 'enconde Sans', sans-serif;
+  cursor: pointer;
+  border-radius: 5px;
+}
+/* Aqui fica as informarções tel email e endereço*/
+.p-rodape {
+  font-size: 15px;
+ margin-top: -5%;
+  margin-left: 70%;
+}
+
+
+.telas{
+margin-left: 50%;
+margin-top: -15.5%;
+margin-bottom: 20%;
+}
+
+.home img {
+  height: 50px;
+  margin: 2px 20px;
+  background: none;
+  border: none;
+  color: #fff;
+}
+
+nav {
+  background: #1B7E6C;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.pesquisa {
+  position: absolute;
+  left: 8%;
+}
+
+.barra-pesquisa {
+  background-color: #EAFDF7;
+  border-radius: 20px;
+  height: 35px;
+  width: 400px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.barra-texto {
+  background: none;
+  border: none;
+  outline: none;
+  height: 30px;
+  width: 400px;
+  padding: 0;
+  line-height: 30px;
+  margin-left: 10px;
+}
+
+.botao-pesquisa img {
+  display: flex;
+  padding-right: 10px;
+  width: 30px
+}
+
+.botao-pesquisa:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  list-style: none;
+  font-family: 'Encode Sans';
+  font-size: large;
+  font-weight: 900;
+  padding-right: 20px;
+  text-decoration: none;
+}
+
+li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+li:not(:last-child) {
+  padding-right: 20px;
+}
+
+li:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+@media screen and (max-width: 880px) {
+  header {
+      position: relative;
+      width: 100%;
+  }
+  .home img {
+      height: 50px;
+      margin: 2px 10px;
+      background: none;
+      border: none;
+      color: #fff;
+  }
+  nav {
+      background: #1B7E6C;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+  }
+  .pesquisa {
+      position: absolute;
+      left: 18%;
+  }
+  .barra-pesquisa {
+      background-color: #EAFDF7;
+      border-radius: 20px;
+      height: 35px;
+      width: 100px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+  }
+  .barra-texto {
+      background: none;
+      border: none;
+      outline: none;
+      height: 30px;
+      width: 55px;
+      padding: 0;
+      line-height: 30px;
+      margin-left: 10px;
+  }
+  .botao-pesquisa img {
+      display: flex;
+      padding-right: 10px;
+      width: 30px
+  }
+  .botao-pesquisa:hover {
+      cursor: pointer;
+      opacity: 0.8;
+  }
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  list-style: none;
+  font-family: 'Encode Sans';
+  font-size: large;
+  font-weight: 900;
+  padding: 0px 10px 0px 0px;
+}
+
+li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+li:not(:last-child) {
+  padding-right: 10px;
+}
+
+li:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+.home img {
+  height: 50px;
+  margin: 2px 20px;
+  background: none;
+  border: none;
+  color: #fff;
+}
+
+nav {
+  background: #1B7E6C;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.pesquisa {
+  position: absolute;
+  left: 8%;
+}
+
+.barra-pesquisa {
+  background-color: #EAFDF7;
+  border-radius: 20px;
+  height: 35px;
+  width: 400px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.barra-texto {
+  background: none;
+  border: none;
+  outline: none;
+  height: 30px;
+  width: 400px;
+  padding: 0;
+  line-height: 30px;
+  margin-left: 10px;
+}
+
+.botao-pesquisa img {
+  display: flex;
+  padding-right: 10px;
+  width: 30px
+}
+
+.botao-pesquisa:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  list-style: none;
+  font-family: 'Encode Sans';
+  font-size: large;
+  font-weight: 900;
+  padding-right: 20px;
+  text-decoration: none;
+}
+
+li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+li:not(:last-child) {
+  padding-right: 20px;
+}
+
+li:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+@media screen and (max-width: 880px) {
+  header {
+      position: relative;
+      width: 100%;
+  }
+  .home img {
+      height: 50px;
+      margin: 2px 10px;
+      background: none;
+      border: none;
+      color: #fff;
+  }
+  nav {
+      background: #1B7E6C;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+  }
+  .pesquisa {
+      position: absolute;
+      left: 18%;
+  }
+  .barra-pesquisa {
+      background-color: #EAFDF7;
+      border-radius: 20px;
+      height: 35px;
+      width: 100px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+  }
+  .barra-texto {
+      background: none;
+      border: none;
+      outline: none;
+      height: 30px;
+      width: 55px;
+      padding: 0;
+      line-height: 30px;
+      margin-left: 10px;
+  }
+  .botao-pesquisa img {
+      display: flex;
+      padding-right: 10px;
+      width: 30px
+  }
+  .botao-pesquisa:hover {
+      cursor: pointer;
+      opacity: 0.8;
+  }
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  list-style: none;
+  font-family: 'Encode Sans';
+  font-size: large;
+  font-weight: 900;
+  padding: 0px 10px 0px 0px;
+}
+
+li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+li:not(:last-child) {
+  padding-right: 10px;
+}
+
+li:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+

@@ -1,4 +1,6 @@
-import styles from './footer.module.scss';
+
+  import React from "react";
+import styles from "./footer.module.scss"; // Certifique-se de criar o arquivo CSS/SCSS correspondente e importá-lo aqui
 
 export default function Navbar() {
     return <> 
