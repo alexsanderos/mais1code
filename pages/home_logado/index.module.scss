@@ -1,9 +1,16 @@
 /* CSS do componente da página Contato */
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans:wght@400;700&display=swap');
+
+.corpo {
+    color: #1B7E6C;
+    font-family: 'Encode Sans', sans-serif;
+}
 
 .criarPublicacao {
     padding: 10px 0 10px 0;
     margin: 20px auto;
     width: 734px;
+    height: 100px;
     background-color: #fff;
     border-radius: 20px;
     align-items: center;
@@ -14,14 +21,23 @@
 .fotoPerfil {
     width: 44px;
     float: left;
-    margin-left: 10px;
+    margin: 0 10px 0 10px;
 }
 
 .publicacao {
-    padding: 15px 300px 15px 0;
+    background: transparent;
+    padding: 15px 10px 15px 10px;
     text-align: left;
     float: left;
     margin-left: 10px;
+    border-radius: 10px;
+}
+
+.botaoPostar {
+    position: relative;
+    top: 10px;
+    right: 605px;
+    padding: 10px 20px;
     border-radius: 10px;
 }
 
@@ -66,7 +82,7 @@
 }
 
 .textoPost {
-    padding: 0 20px 0;
+    padding: 0 20px 0 20px;
 }
 
 .horaPost {
