@@ -18,6 +18,22 @@ export default function HomeLogado() {
 
       </section>
 
+      <section className={`${styles['criarPublicacaoTeste']} conteudo-card`}>
+        <div className={styles['criarPublicacaoTesteInfoPost']}>
+          <img src="./imgs/Icones/usuario-de-perfil.png" alt="#" className={styles['fotoPerfil']}/>
+
+          <form action="#" method="get">
+            <input type="text" className={styles['publicacao']} size="70" placeholder="Como você deseja se inspirar hoje?" />
+          </form>
+
+          <img src="./imgs/Icones/carregar.png" alt="#" className={styles['midia']} />
+          <img src="./imgs/Icones/pasta(Verde).png" alt="#" className={styles['vagas']} />
+        </div>
+        <div className={styles['criarPublicacaoTesteSubmitPost']}>
+          <input type='submit' value="Postar" className={styles['botaoPostarTeste']}/>
+        </div>
+      </section>
+
       <section className={styles['post']}>
         <div className={styles['usuarioPost']}>
           <img src="./imgs/Icones/usuario-de-perfil.png" alt="#" className={styles['fotoPerfil']}/>

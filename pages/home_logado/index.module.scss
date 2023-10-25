@@ -18,6 +18,31 @@
     box-shadow: 1px 1px 1px #868686;
 }
 
+.criarPublicacaoTeste {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    border-radius: 20px;
+    border: 1px solid #868686;
+    box-shadow: 1px 1px 1px #868686;
+    padding: 15px 0;
+
+    .criarPublicacaoTesteInfoPost {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: center;
+    }
+
+    .criarPublicacaoTesteSubmitPost {
+        
+        .botaoPostarTeste {
+            margin-left: 50px;
+            padding: 10px 20px;
+            border-radius: 10px;
+        }
+    }
+}
+
 .fotoPerfil {
     width: 44px;
     float: left;
