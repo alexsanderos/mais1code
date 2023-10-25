@@ -8,7 +8,7 @@ export default function Navbar() {
         <header className={styles.header}>
           <nav className={styles.nav}>
     
-            <a href="/home_principal" className={styles.home}>
+            <a href="/" className={styles.home}>
               <img src="./imgs/Icones/AlgarIcon.png" alt="Home" />
             </a>
    
