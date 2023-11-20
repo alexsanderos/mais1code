@@ -3,11 +3,14 @@ import styles from './index.module.scss';
 export default function Oportunidades() {
     return <>
     <div className={styles['lista-oportunidades']}>
-     <h1> Lista Oportunidades </h1> 
+     <div className={styles['cabecalho']}>
+        <h1> Lista Oportunidades </h1>
+        <input type='button' value= 'Nova oportunidade' className={styles['botao']}/>
+     </div>
      <table className={styles['tabela-oportunidades']}>
         <thead>
             <tr>
-                <th>Id</th>
+                <th className={styles['linha-1']}>Id</th>
                 <th>Empresa</th>
                 <th>Título</th>
                 <th>Nível</th>
@@ -16,20 +19,27 @@ export default function Oportunidades() {
         </thead>
         <tbody>
             <tr>
-                <td>1</td>
+                <td className={styles['linha-1']}>1</td>
                 <td>Empresa 1</td>
                 <td>Desenvolvedor Front-end</td>
                 <td>Júnior</td>
-                <td><a href="#" > Editar </a>
-<a href="#" > Excluir </a></td>
+                <td><a href="#" > Editar </a> &nbsp;&nbsp;&nbsp;
+                <a href="#" > Excluir </a></td>
             </tr>
             <tr>
-                <td>2</td>
+                <td className={styles['linha-1']}>2</td>
                 <td>Empresa 2</td>
                 <td>Desenvolvedor Back-end</td>
                 <td>Júnior</td>
-                <td><a href="#" > Editar </a>
-<a href="#" > Excluir </a></td>
+                <td><a href="#" > Editar </a>&nbsp;&nbsp;&nbsp;
+                <a href="#" > Excluir </a></td>
+            </tr>
+            <tr>
+                <td className={styles['linha-branco']}></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
             </tr>
         </tbody>
      </table>
