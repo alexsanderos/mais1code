@@ -6,9 +6,55 @@
     margin-top: 50px;
     border-radius: 10px;
     padding: 20px;
+}
 
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+
+    h1 {
+        display: inline; 
+        font-weight: 400;
+        font-size: 40px;
+    }
+
+    .botao {
+        height: 3em; 
+        background-color: #1B7E6C;
+        color: #fff;
+        width: 273px;
+        border-radius: 5px;
+        border: none;
+        font-size: 18px;
+        margin-top: 20px;
+    }
 }
 .tabela-oportunidades{
     width: 100%;
-    
+    border: 2px solid #000;
+    border-collapse: collapse;
+
+    tr {
+        border-width: -10px;
+    }
+
+    .linha-branco {
+        padding-bottom: 30em;
+    }
+
+    .linha-1 {
+        padding: 10px 0 10px 0;
+    }
+
+    td {
+        border: 2px solid #000;
+        border-right: none;
+        border-left: none;
+        text-align: center;
+    }
+
+    a {
+        color: #000;
+        text-decoration: none;
+    }
 }
