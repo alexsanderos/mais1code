@@ -30,3 +30,16 @@
     font-size: 8px;
     margin-bottom: 5px;
   }
+
+  .form-grupo {
+    display: flex;
+    justify-content: space-between;
+
+    div {
+      width: 100%;
+
+      &:first-child {
+        padding-right: 30px;
+      }
+    }
+  }
