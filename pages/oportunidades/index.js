@@ -5,7 +5,7 @@ export default function Oportunidades() {
     <div className={styles['lista-oportunidades']}>
      <div className={styles['cabecalho']}>
         <h1> Lista Oportunidades </h1>
-        <input type='button' value= 'Nova oportunidade' className={styles['botao']}/>
+        <a href="/formulario" className={styles['botao']} >Nova oportunidade</a>
      </div>
      <table className={styles['tabela-oportunidades']}>
         <thead>
